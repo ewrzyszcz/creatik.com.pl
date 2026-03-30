@@ -93,7 +93,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Napisz e-mail</h4>
-                  <p className="text-gray-600 mb-1">kontakt@techpartner.pl</p>
+                  <p className="text-gray-600 mb-1">creatik@creatik.com.pl</p>
                   <p className="text-sm text-gray-500">Odpowiadamy w ciągu 2 godzin</p>
                 </div>
               </div>

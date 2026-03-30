@@ -4,7 +4,6 @@ import { ArrowLeft, MonitorSmartphone, Code, SearchCheck, Rocket, LayoutTemplate
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FaqAccordion from '@/components/FaqAccordion';
-import StronyWwwTechLogos from '@/components/StronyWwwTechLogos';
 
 export const metadata = {
   title: 'Tworzenie Stron WWW i Aplikacji Webowych | Creatik',
@@ -133,8 +132,6 @@ export default function StronyWWW() {
             </div>
           </div>
         </div>
-
-        <StronyWwwTechLogos />
 
         {/* FAQ Section */}
         <div className="max-w-4xl mx-auto">

@@ -23,6 +23,10 @@ export async function POST(request: Request) {
         user: process.env.SMTP_USER || '',
         pass: process.env.SMTP_PASS || '',
       },
+      tls: {
+        // Rozwiązuje problem z certyfikatami na wielu polskich hostingach (cPanel/DirectAdmin)
+        rejectUnauthorized: false
+      }
     });
 
     // Send email
@@ -58,8 +62,9 @@ export async function POST(request: Request) {
     );
   } catch (error) {
     console.error('Contact form error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Nieznany błąd';
     return NextResponse.json(
-      { error: 'Wystąpił błąd podczas wysyłania wiadomości. Sprawdź konfigurację serwera SMTP.' },
+      { error: `Błąd SMTP: ${errorMessage}. Sprawdź dane logowania i host w panelu.` },
       { status: 500 }
     );
   }

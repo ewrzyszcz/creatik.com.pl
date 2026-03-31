@@ -25,14 +25,8 @@ export default function Footer() {
               Dostarczamy niezawodne rozwiązania informatyczne dla biznesu. Zabezpieczamy, optymalizujemy i rozwijamy infrastrukturę IT naszych klientów.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#f55c00] hover:text-white transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#f55c00] hover:text-white transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61569855749749" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#f55c00] hover:text-white transition-colors">
                 <Facebook size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#f55c00] hover:text-white transition-colors">
-                <Twitter size={20} />
               </a>
             </div>
           </div>
@@ -41,12 +35,12 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6">Na skróty</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="#o-nas" className="hover:text-[#f55c00] transition-colors">O firmie</Link></li>
-              <li><Link href="#uslugi" className="hover:text-[#f55c00] transition-colors">Nasze usługi</Link></li>
+              <li><Link href="/#o-nas" className="hover:text-[#f55c00] transition-colors">O firmie</Link></li>
+              <li><Link href="/#uslugi" className="hover:text-[#f55c00] transition-colors">Nasze usługi</Link></li>
               <li><Link href="/strony-www" className="hover:text-[#f55c00] transition-colors">Strony WWW</Link></li>
-              <li><Link href="#dlaczego-my" className="hover:text-[#f55c00] transition-colors">Dlaczego my</Link></li>
-              <li><Link href="#wspolpraca" className="hover:text-[#f55c00] transition-colors">Proces współpracy</Link></li>
-              <li><Link href="#faq" className="hover:text-[#f55c00] transition-colors">FAQ</Link></li>
+              <li><Link href="/#dlaczego-my" className="hover:text-[#f55c00] transition-colors">Dlaczego my</Link></li>
+              <li><Link href="/#wspolpraca" className="hover:text-[#f55c00] transition-colors">Proces współpracy</Link></li>
+              <li><Link href="/#faq" className="hover:text-[#f55c00] transition-colors">FAQ</Link></li>
               <li><Link href="/blog" className="hover:text-[#f55c00] transition-colors">Blog IT</Link></li>
             </ul>
           </div>

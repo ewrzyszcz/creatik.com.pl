@@ -30,7 +30,7 @@ export default function BlogPage() {
               key={post.slug} 
               className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col h-full border border-gray-100"
             >
-              <Link href={`/blog/${post.slug}`} className="block relative h-56 w-full overflow-hidden group">
+              <Link href={`/blog/${post.slug}`} className="block relative aspect-video w-full overflow-hidden group">
                 <Image
                   src={post.imageUrl}
                   alt={post.title}

@@ -20,7 +20,7 @@ export default function BezpieczenstwoIT() {
               Wdrażanie polityk bezpieczeństwa, ochrona przed ransomware, firewalle oraz zautomatyzowane systemy kopii zapasowych.
             </p>
           </div>
-          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
             <Image 
               src="/images/pexels-shkrabaanthony-5475793.jpg"  
               alt="Bezpieczeństwo IT" 

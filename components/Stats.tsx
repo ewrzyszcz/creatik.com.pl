@@ -5,8 +5,8 @@ import { Calendar, Building2, CheckSquare, Clock } from 'lucide-react';
 
 const stats = [
   { value: '15+', label: 'Lat doświadczenia', icon: <Calendar size={40} className="mx-auto mb-4 opacity-90" /> },
-  { value: '250+', label: 'Obsługiwanych firm', icon: <Building2 size={40} className="mx-auto mb-4 opacity-90" /> },
-  { value: '10k+', label: 'Zakończonych wdrożeń', icon: <CheckSquare size={40} className="mx-auto mb-4 opacity-90" /> },
+  { value: '10+', label: 'Obsługiwanych firm', icon: <Building2 size={40} className="mx-auto mb-4 opacity-90" /> },
+  { value: '100+', label: 'Zakończonych wdrożeń', icon: <CheckSquare size={40} className="mx-auto mb-4 opacity-90" /> },
   { value: '< 15m', label: 'Średni czas reakcji', icon: <Clock size={40} className="mx-auto mb-4 opacity-90" /> },
 ];
 

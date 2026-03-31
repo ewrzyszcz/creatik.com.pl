@@ -20,7 +20,7 @@ export default function WdrozeniaSprzetu() {
               Doradztwo w doborze sprzętu, zakupy, konfiguracja i wdrażanie nowych komputerów, serwerów i urządzeń peryferyjnych.
             </p>
           </div>
-          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
             <Image 
               src="/images/pexels-cookiecutter-19353800.jpg" 
               alt="Wdrożenia sprzętu" 

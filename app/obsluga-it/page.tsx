@@ -20,7 +20,7 @@ export default function ObslugaIT() {
               Kompleksowy outsourcing IT. Przejmujemy obowiązki działu informatycznego, optymalizując koszty i zwiększając wydajność.
             </p>
           </div>
-          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
             <Image 
               src="/images/pexels-seven11nash-380769.jpg" 
               alt="Obsługa IT dla firm" 

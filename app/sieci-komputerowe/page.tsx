@@ -20,7 +20,7 @@ export default function SieciKomputerowe() {
               Projektowanie, budowa i konfiguracja bezpiecznych sieci LAN/WAN oraz wydajnych systemów Wi-Fi dla biur i magazynów.
             </p>
           </div>
-          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
             <Image 
               src="/images/pexels-cookiecutter-1148820.jpg" 
               alt="Sieci komputerowe" 

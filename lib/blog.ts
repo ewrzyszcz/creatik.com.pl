@@ -55,7 +55,7 @@ Po dodaniu favicon na stronę, Googlebot musi ją zaindeksować. Możesz przyspi
 Ustawienie favicon to prosty, ale ważny krok w optymalizacji strony pod kątem UX i SEO. Dzięki temu Twoja witryna będzie wyglądać bardziej profesjonalnie i będzie łatwiejsza do rozpoznania w wynikach wyszukiwania.
     `,
     date: '2023-10-15',
-    imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/komputer.png',
   },
   {
     slug: 'dlaczego-warto-zainwestowac-w-strone-na-wordpressie-zamiast-korzystac-z-kreatorow-stron',
@@ -89,7 +89,7 @@ Kreatory stron kuszą niskim progiem wejścia, ale w dłuższej perspektywie mie
 Kreatory stron to dobre rozwiązanie dla hobbystów i bardzo małych projektów. Jeśli jednak traktujesz swój biznes poważnie i zależy Ci na profesjonalnym wizerunku, niezależności, wysokich pozycjach w Google i możliwościach rozwoju – WordPress jest inwestycją, która z pewnością się zwróci.
     `,
     date: '2023-11-02',
-    imageUrl: 'https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/komputer (1).png',
   },
   {
     slug: 'podstawy-korzystania-z-directadmin',
@@ -145,7 +145,7 @@ Regularne tworzenie kopii zapasowych to podstawa bezpieczeństwa.
 DirectAdmin to potężne, a zarazem intuicyjne narzędzie. Opanowanie powyższych podstaw pozwoli Ci na samodzielne zarządzanie większością aspektów Twojego hostingu i strony internetowej.
     `,
     date: '2023-11-15',
-    imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/direct_admin.png',
   },
   {
     slug: 'cookies-i-google-consent-mode-na-strone-wordpress',
@@ -191,7 +191,7 @@ Po wdrożeniu koniecznie przetestuj, czy mechanizm działa poprawnie:
 Poprawne wdrożenie banera cookies i Google Consent Mode chroni Cię przed karami finansowymi i pozwala na legalne zbieranie danych analitycznych. Wybór odpowiedniej wtyczki w WordPressie znacznie upraszcza ten proces.
     `,
     date: '2023-12-05',
-    imageUrl: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80',
+   imageUrl: '/images/cookies.png', 
   },
   {
     slug: 'podstawy-systemu-linux-red-hat',
@@ -249,7 +249,7 @@ Do podstawowego monitorowania zasobów serwera przydają się komendy:
 Opanowanie tych podstaw stanowi solidny fundament do dalszej nauki administracji systemami z rodziny Red Hat.
     `,
     date: '2024-01-12',
-    imageUrl: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/linux.png',
   },
   {
     slug: 'podstawowa-konfiguracja-cms-joomla-po-instalacji',
@@ -314,7 +314,7 @@ Zanim zaczniesz wprowadzać duże zmiany, zainstaluj komponent **Akeeba Backup**
 Po wykonaniu tych 10 kroków, Twoja instalacja Joomla jest bezpieczna, zoptymalizowana i gotowa do wprowadzania właściwych treści.
     `,
     date: '2024-02-20',
-    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/joomla_basic.png',
   },
   {
     slug: 'jak-zainstalowac-joomla',
@@ -369,7 +369,7 @@ Kliknij przycisk "Zaplecze" (Administrator) lub wpisz w przeglądarce \`twojadom
 Gratulacje! Właśnie zainstalowałeś system Joomla. Teraz możesz przejść do konfiguracji, instalacji języka polskiego i tworzenia swojej nowej strony internetowej.
     `,
     date: '2024-03-05',
-    imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/joomla_config.png'
   },
   {
     slug: 'przenoszenie-witryny-wordpress-na-inny-serwer',
@@ -426,7 +426,7 @@ Niezależnie od wybranej metody, po zakończeniu migracji zaloguj się do panelu
 Ręczna migracja daje pełną kontrolę i jest niezawodna przy bardzo dużych stronach. Dla większości standardowych stron wtyczki takie jak Duplicator są jednak znacznie szybszym i wygodniejszym rozwiązaniem.
     `,
     date: '2024-03-18',
-    imageUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/migracja_wordrpress.png'
   },
   {
     slug: 'podstawowa-instalacja-divi',
@@ -475,6 +475,6 @@ Po zaimportowaniu układu (lub rozpoczęciu od zera), możesz edytować stronę 
 Instalacja Divi jest prosta i nie różni się od instalacji innych motywów premium. Prawdziwa moc Divi leży w jego Visual Builderze, który wymaga odrobiny praktyki, ale daje nieograniczone możliwości projektowe.
     `,
     date: '2024-04-02',
-    imageUrl: 'https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/divi.png'
   }
 ];

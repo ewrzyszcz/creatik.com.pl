@@ -20,7 +20,7 @@ export default function AdministracjaSerwerami() {
               Konfiguracja, zarządzanie i utrzymanie serwerów Windows i Linux. Zapewniamy ich ciągłą i bezawaryjną pracę.
             </p>
           </div>
-          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
             <Image 
               src="/images/pexels-brett-sayles-5050305.jpg" 
               alt="Administracja serwerami" 

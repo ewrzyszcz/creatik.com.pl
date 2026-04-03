@@ -36,9 +36,9 @@ export default function CookieBanner() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-6 left-6 z-[60] w-[calc(100%-3rem)] sm:w-[400px] bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden flex flex-col">
+    <div className="fixed bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-auto sm:w-[400px] z-[60] bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden flex flex-col">
       {!showSettings ? (
-        <div className="p-6">
+        <div className="p-5 sm:p-6">
           <h3 className="text-lg font-bold text-gray-900 mb-2">Twoja prywatność</h3>
           <p className="text-sm text-gray-600 mb-6 leading-relaxed">
             Używamy plików cookies, aby zapewnić Ci najlepsze doświadczenia na naszej stronie. 
@@ -58,18 +58,18 @@ export default function CookieBanner() {
             >
               Akceptuj wszystkie
             </button>
-            <div className="flex gap-3">
+            <div className="flex flex-col min-[360px]:flex-row gap-3">
               <button
                 onClick={() => saveConsent('none')}
-                className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2.5 rounded-lg font-medium transition-colors text-sm"
+                className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-800 px-2 sm:px-4 py-2.5 rounded-lg font-medium transition-colors text-sm"
               >
                 Odrzuć
               </button>
               <button
                 onClick={() => setShowSettings(true)}
-                className="flex-1 bg-white border border-gray-200 hover:bg-gray-50 text-gray-800 px-4 py-2.5 rounded-lg font-medium transition-colors text-sm flex items-center justify-center gap-2"
+                className="flex-1 bg-white border border-gray-200 hover:bg-gray-50 text-gray-800 px-2 sm:px-4 py-2.5 rounded-lg font-medium transition-colors text-sm flex items-center justify-center gap-2"
               >
-                <Settings size={16} />
+                <Settings size={16} className="shrink-0" />
                 Dostosuj
               </button>
             </div>

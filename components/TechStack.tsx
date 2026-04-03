@@ -13,7 +13,7 @@ import {
   HardDrive, 
   Network, 
   Lock, 
-  Code 
+  Bot 
 } from 'lucide-react';
 
 const technologies = [
@@ -28,7 +28,7 @@ const technologies = [
   { icon: <Wifi size={36} />, name: 'Enterprise Wi-Fi' },
   { icon: <HardDrive size={36} />, name: 'NAS / SAN Storage' },
   { icon: <Lock size={36} />, name: 'VPN / IPsec' },
-  { icon: <Code size={36} />, name: 'Custom Scripts' },
+  { icon: <Bot size={36} />, name: 'AI' },
 ];
 
 export default function TechStack() {
@@ -41,7 +41,7 @@ export default function TechStack() {
             Środowiska, w których pracujemy
           </h3>
           <p className="text-lg text-gray-600">
-            Nasi inżynierowie posiadają certyfikaty i doświadczenie w pracy z najpopularniejszymi i najbardziej niezawodnymi technologiami na rynku.
+            Opieramy realizacje na sprawdzonych i niezawodnych technologiach, zapewniając stabilność oraz bezpieczeństwo wdrażanych rozwiązań.
           </p>
         </div>
 

@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Menu, X, ChevronDown, Code } from 'lucide-react';
+import Image from 'next/image';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -15,9 +16,19 @@ export default function Navbar() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
+    
+    // Check initial scroll position on mount and route change
+    handleScroll();
+    
+    // Sometimes Next.js hash navigation happens slightly after mount
+    const timeoutId = setTimeout(handleScroll, 100);
+
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(timeoutId);
+    };
+  }, [pathname]);
 
   const navLinks = [
     { name: 'O nas', href: '/#o-nas' },
@@ -51,12 +62,15 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-[#f55c00] rounded-lg flex items-center justify-center text-white">
-                <Code size={24} strokeWidth={3} />
-              </div>
-              <span className={`font-bold text-xl tracking-tight ${isWhiteBg ? 'text-gray-900' : 'text-white'}`}>
-                Crea<span className="text-[#f55c00]">tik</span>
-              </span>
+              <Image 
+                src={isWhiteBg ? '/logo/logo_creatik2026_blackw.png' : '/logo/logo_creatik2026_whitew.png'} 
+                alt="Creatik Logo" 
+                width={150} 
+                height={40} 
+                className="h-10 w-auto"
+                style={{ width: 'auto', height: 'auto' }}
+                priority
+              />
             </Link>
           </div>
 

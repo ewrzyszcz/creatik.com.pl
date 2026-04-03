@@ -17,14 +17,14 @@ import {
 const services = [
   {
     icon: <Headset size={32} />,
-    title: 'Obsługa IT dla firm',
-    description: 'Kompleksowy outsourcing IT. Przejmujemy obowiązki działu informatycznego, optymalizując koszty i zwiększając wydajność.',
+    title: 'Obsługa IT i opieka nad stacjami',
+    description: 'Kompleksowy outsourcing IT oraz wsparcie użytkowników (Helpdesk). Przejmujemy obowiązki działu IT, instalujemy oprogramowanie i usuwamy awarie.',
     link: '/obsluga-it'
   },
   {
     icon: <ServerCog size={32} />,
     title: 'Administracja serwerami',
-    description: 'Konfiguracja, zarządzanie i utrzymanie serwerów Windows i Linux. Zapewniamy ich ciągłą i bezawaryjną pracę.',
+    description: 'Konfiguracja, zarządzanie i utrzymanie serwerów Windows, Linux i BSD. Zapewniamy ich ciągłą i bezawaryjną pracę.',
     link: '/administracja-serwerami'
   },
   {
@@ -32,12 +32,6 @@ const services = [
     title: 'Sieci komputerowe',
     description: 'Projektowanie, budowa i konfiguracja bezpiecznych sieci LAN/WAN oraz wydajnych systemów Wi-Fi dla biur i magazynów.',
     link: '/sieci-komputerowe'
-  },
-  {
-    icon: <MonitorCog size={32} />,
-    title: 'Opieka nad stacjami',
-    description: 'Bieżące wsparcie użytkowników (Helpdesk), instalacja oprogramowania, usuwanie awarii i konserwacja sprzętu komputerowego.',
-    link: null
   },
   {
     icon: <ReceiptText size={32} />,

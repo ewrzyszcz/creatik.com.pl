@@ -1,7 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { Facebook, Twitter, Linkedin, Instagram, Code } from 'lucide-react';
+import Image from 'next/image';
+import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,12 +15,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-[#f55c00] rounded-lg flex items-center justify-center text-white">
-                <Code size={20} strokeWidth={3} />
-              </div>
-              <span className="font-bold text-xl tracking-tight text-white">
-                Crea<span className="text-[#f55c00]">tik</span>
-              </span>
+              <Image 
+                src="/logo/logo_creatik2026_whitew.png" 
+                alt="Creatik Logo" 
+                width={150} 
+                height={40} 
+                className="h-10 w-auto"
+                style={{ width: 'auto', height: 'auto' }}
+              />
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
               Dostarczamy niezawodne rozwiązania informatyczne dla biznesu. Zabezpieczamy, optymalizujemy i rozwijamy infrastrukturę IT naszych klientów.

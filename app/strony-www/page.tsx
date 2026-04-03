@@ -90,7 +90,7 @@ export default function StronyWWW() {
               <div className="w-14 h-14 bg-orange-50 rounded-xl flex items-center justify-center mb-6">
                 <LayoutTemplate className="text-[#f55c00]" size={32} />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Strony Firmowe (Wizytówki)</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Strony Firmowe</h3>
               <p className="text-gray-600 mb-6">
                 Nowoczesne, responsywne strony oparte na systemie WordPress. Idealne do zaprezentowania oferty, budowania wizerunku i pozyskiwania kontaktów.
               </p>

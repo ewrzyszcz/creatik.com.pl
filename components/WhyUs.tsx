@@ -22,7 +22,7 @@ const reasons = [
   {
     icon: <Award size={28} />,
     title: 'Wieloletnie doświadczenie',
-    description: 'Nasz zespół składa się z certyfikowanych inżynierów z wieloletnim stażem w obsłudze firm z różnych branż.'
+    description: 'Dysponujemy bogatym doświadczeniem w obsłudze infrastruktury IT oraz wdrożeniach dla przedsiębiorstw o zróżnicowanych potrzebach.'
   },
   {
     icon: <Handshake size={28} />,

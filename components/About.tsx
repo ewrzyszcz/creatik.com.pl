@@ -10,7 +10,7 @@ export default function About() {
     { text: 'Gwarancja niezawodności systemów', icon: <Server className="text-[#f55c00] shrink-0" size={24} /> },
     { text: 'Najwyższe standardy bezpieczeństwa', icon: <Shield className="text-[#f55c00] shrink-0" size={24} /> },
     { text: 'Kompleksowa obsługa od A do Z', icon: <Zap className="text-[#f55c00] shrink-0" size={24} /> },
-    { text: 'Dedykowany opiekun techniczny', icon: <Headphones className="text-[#f55c00] shrink-0" size={24} /> },
+    { text: 'Bezpośredni kontakt telefoniczy', icon: <Headphones className="text-[#f55c00] shrink-0" size={24} /> },
     { text: 'Szybki czas reakcji na zgłoszenia', icon: <Clock className="text-[#f55c00] shrink-0" size={24} /> },
   ];
 

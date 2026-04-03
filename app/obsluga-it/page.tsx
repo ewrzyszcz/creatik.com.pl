@@ -37,7 +37,7 @@ export default function ObslugaIT() {
             Dlaczego warto wybrać outsourcing IT?
           </h2>
           <p className="mb-8 text-xl">
-            Zewnętrzna obsługa informatyczna to gwarancja ciągłości działania Twojego biznesu. Zamiast zatrudniać pełnoetatowego pracownika, zyskujesz dostęp do całego zespołu specjalistów z różnych dziedzin IT.
+            Powierzenie obsługi IT zewnętrznemu partnerowi to efektywne wsparcie i dostęp do różnorodnych kompetencji technologicznych bez konieczności rozbudowy wewnętrznych zasobów.
           </p>
           
           <div className="grid sm:grid-cols-2 gap-8 mb-16 not-prose">
@@ -52,7 +52,7 @@ export default function ObslugaIT() {
               <BrainCircuit className="text-[#f55c00] shrink-0" size={32} />
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Wiedza ekspercka</h3>
-                <p className="text-gray-600">Dostęp do najnowszych technologii i certyfikowanych inżynierów.</p>
+                <p className="text-gray-600">Korzystamy z najnowszych rozwiązań technologicznych, gwarantując wysoki poziom wiedzy i doświadczenia.</p>
               </div>
             </div>
             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100 flex gap-5 hover:shadow-md transition-shadow">

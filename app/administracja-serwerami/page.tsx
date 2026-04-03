@@ -17,7 +17,7 @@ export default function AdministracjaSerwerami() {
           <div>
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">Administracja serwerami</h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Konfiguracja, zarządzanie i utrzymanie serwerów Windows i Linux. Zapewniamy ich ciągłą i bezawaryjną pracę.
+              Konfiguracja, zarządzanie i utrzymanie serwerów Windows, Linux i BSD. Zapewniamy ich ciągłą i bezawaryjną pracę.
             </p>
           </div>
           <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
@@ -44,7 +44,7 @@ export default function AdministracjaSerwerami() {
             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100 flex gap-5 hover:shadow-md transition-shadow">
               <ServerCog className="text-[#f55c00] shrink-0" size={32} />
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Windows & Linux</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Windows, Linux i BSD</h3>
                 <p className="text-gray-600">Kompleksowa administracja systemami serwerowymi oraz Active Directory.</p>
               </div>
             </div>

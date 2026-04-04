@@ -53,7 +53,7 @@ export default function Hero() {
       id="home" 
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className="relative w-full min-h-screen bg-[#0a0f1a] overflow-hidden flex items-center pt-20"
+      className="relative w-full min-h-[100svh] bg-[#0a0f1a] overflow-hidden flex flex-col justify-center pt-24 pb-12"
     >
       {/* Glowing Orbs from Option 1 */}
       <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-[#f55c00] rounded-full mix-blend-screen filter blur-[128px] opacity-40 animate-pulse pointer-events-none"></div>
@@ -76,7 +76,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-5xl lg:text-7xl font-extrabold text-white leading-tight mb-6"
+            className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white leading-tight mb-4 lg:mb-6"
           >
             Twój niezawodny <br/>
             <span className="text-[#f55c01]">Dział IT</span>
@@ -86,7 +86,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-xl text-gray-400 mb-10 max-w-lg leading-relaxed"
+            className="text-lg lg:text-xl text-gray-400 mb-6 lg:mb-8 max-w-lg leading-relaxed"
           >
             Zapewniamy stabilność, bezpieczeństwo i rozwój infrastruktury informatycznej. Skup się na swoim biznesie, a technologię zostaw profesjonalistom.
           </motion.p>
@@ -113,12 +113,12 @@ export default function Hero() {
         </div>
 
         {/* Right Column - Isometric CSS Art from Option 2 */}
-        <div className="relative h-[500px] hidden lg:flex items-center justify-center perspective-[1000px] pointer-events-auto">
+        <div className="relative h-[400px] lg:h-[500px] hidden lg:flex items-center justify-center perspective-[1000px] pointer-events-auto">
           <motion.div 
             initial={{ rotateX: 60, rotateZ: -45, y: 50, opacity: 0 }}
             animate={{ rotateX: 60, rotateZ: -45, y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="relative w-64 h-64"
+            className="relative w-56 h-56 lg:w-64 lg:h-64 scale-90 lg:scale-100"
             style={{ transformStyle: 'preserve-3d' }}
           >
             {/* Base Platform */}

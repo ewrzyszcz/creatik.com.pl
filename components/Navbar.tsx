@@ -17,16 +17,20 @@ export default function Navbar() {
       setIsScrolled(window.scrollY > 20);
     };
     
-    // Check initial scroll position on mount and route change
     handleScroll();
     
-    // Sometimes Next.js hash navigation happens slightly after mount
-    const timeoutId = setTimeout(handleScroll, 100);
+    // Check multiple times after route change to catch hash jumps
+    let checks = 0;
+    const intervalId = setInterval(() => {
+      handleScroll();
+      checks++;
+      if (checks > 10) clearInterval(intervalId); // Check for 1 second
+    }, 100);
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      clearTimeout(timeoutId);
+      clearInterval(intervalId);
     };
   }, [pathname]);
 
@@ -65,10 +69,9 @@ export default function Navbar() {
               <Image 
                 src={isWhiteBg ? '/logo/logo_creatik2026_blackw.png' : '/logo/logo_creatik2026_whitew.png'} 
                 alt="Creatik Logo" 
-                width={150} 
-                height={40} 
-                className="h-10 w-auto"
-                style={{ width: 'auto', height: 'auto' }}
+                width={165} 
+                height={44} 
+                className="h-11 w-auto"
                 priority
               />
             </Link>
@@ -107,7 +110,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/#kontakt"
-              className="bg-[#f55c00] hover:bg-[#d94f00] text-white px-6 py-2.5 rounded-md font-medium transition-colors"
+              className="bg-[#f55c00] hover:bg-[#d94f00] text-white px-6 h-11 inline-flex items-center justify-center rounded-md font-medium transition-colors"
             >
               Skontaktuj się
             </Link>

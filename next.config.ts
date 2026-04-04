@@ -3,6 +3,12 @@ import type { NextConfig } from 'next'
 const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig: NextConfig = {
+  experimental: {
+    allowedDevOrigins: [
+      'ais-dev-eg5njcnkvsx47cqyzwxviy-690734730091.europe-west2.run.app',
+      'ais-pre-eg5njcnkvsx47cqyzwxviy-690734730091.europe-west2.run.app'
+    ],
+  } as any,
   images: {
     unoptimized: true,
     remotePatterns: [

@@ -2,6 +2,7 @@
 
 import { motion } from 'motion/react';
 import { Star, Quote } from 'lucide-react';
+import Image from 'next/image';
 
 export interface Review {
   quote: string;
@@ -103,7 +104,7 @@ export default function TestimonialsClient({ reviews, rating, totalReviews }: Te
 
                 <div className="flex items-center gap-4 mt-auto relative z-10">
                   {testimonial.photoUrl ? (
-                    <img src={testimonial.photoUrl} alt={testimonial.author} className="w-12 h-12 rounded-full ring-2 ring-gray-50" referrerPolicy="no-referrer" />
+                    <Image src={testimonial.photoUrl} alt={testimonial.author} width={48} height={48} className="w-12 h-12 rounded-full ring-2 ring-gray-50" referrerPolicy="no-referrer" />
                   ) : (
                     <div className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl ring-2 ring-gray-50 ${testimonial.color}`}>
                       {testimonial.initial}
